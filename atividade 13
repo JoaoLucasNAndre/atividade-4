@@ -1,0 +1,15 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("Me informe 5 numeros: ")
+		inteiro num1,num2,num3,num4,num5
+		leia(num1,num2,num3,num4,num5)
+
+		inteiro soma = num1+num2+num3+num4+num5
+		inteiro media = soma/5
+
+		escreva("A soma dos números é ", soma, " e a média deles é ", media)
+	}
+}
