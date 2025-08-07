@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("Me informe o primeiro número! ")
+		inteiro num1
+		leia(num1)
+		
+		escreva("Me informe o segundo número! ")
+		inteiro num2
+		leia(num2)
+
+		num1++
+		para(inteiro i=num1; i < num2; i++){
+			escreva(i,"\n")
+
+		}
+		
+	}
+}
